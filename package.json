@@ -1,0 +1,30 @@
+{
+  "name": "mt4-node-exporter",
+  "version": "1.0.0",
+  "description": "MT4 Metrics Exporter with Redis + Prometheus Integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "MoNoRi-Chan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "ioredis": "^5.3.2",
+    "prom-client": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [
+    "mt4",
+    "redis",
+    "prometheus",
+    "metrics",
+    "trading",
+    "monitoring",
+    "futuresoft"
+  ]
+}
