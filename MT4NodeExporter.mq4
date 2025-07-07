@@ -58,8 +58,8 @@ void OnTimer()
         StringReplace(symbolEncoded, ".", "_");
       
           // Append to rateData using formatted string
-        rateData += "&rate_" + symbolEncoded + "_bid=" + bidStr +
-                    "&rate_" + symbolEncoded + "_ask=" + askStr;
+        rateData += "&rate_" + symbolEncoded + "_bid=" + bid +
+                    "&rate_" + symbolEncoded + "_ask=" + ask;
     }
     string fullPayload = payload + tradeData + rateData;
 
